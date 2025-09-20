@@ -7,7 +7,7 @@ from backend import DatabaseManager # Make sure backend.py is in the same direct
 # --- PostgreSQL Connection ---
 # REMEMBER TO REPLACE THESE WITH YOUR ACTUAL DETAILS
 db = DatabaseManager(
-    dbname="",
+    dbname="crud",
     user="postgres",
     password="99Mur@ri99",
     host="localhost",
